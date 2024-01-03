@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Climate Champ",
+    "slug": "ClimateChamp",
+    "owner": "newcastle-rse",
+    "description": "Reduce your carbon footprint",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon512.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#429928"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "uk.ac.ncl.climatechamp",
+      "buildNumber": "109",
+      "icon": "./assets/icon512.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#429928",
+        "resizeMode": "cover"
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "publishBundlePath": "uk.ac.ncl.climatechamp",
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#429928",
+        "resizeMode": "cover"
+      },
+      "useNextNotificationsApi": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "uk.ac.ncl.climatechamp",
+      "versionCode": 109
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#7D8C79"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "reactionData": {
+    "talkedToPartnerOrHusbandOrWife": "didNotTalk",
+    "talkedToYourChild": "didNotTalk",
+    "talkedToOtherFamily": "didNotTalk",
+    "talkedToFriend": "didNotTalk",
+    "talkedToNeighbour": "didNotTalk",
+    "talkedToColleague": "didNotTalk",
+    "talkedToStranger": "didNotTalk"
+  },
+  "contactsData": {
+    "talkedToPartnerOrHusbandOrWife": false,
+    "talkedToYourChild": false,
+    "talkedToOtherFamily": false,
+    "talkedToFriend": false,
+    "talkedToNeighbour": false,
+    "talkedToColleague": false,
+    "talkedToStranger": false
+  },
+  "talkedToOptions": {
+    "talkedToPartnerOrHusbandOrWife": "Your Partner or Husband or Wife",
+    "talkedToYourChild": "Your Child",
+    "talkedToOtherFamily": "Your Family",
+    "talkedToFriend": "Your Friend",
+    "talkedToNeighbour": "Your Neighbour",
+    "talkedToColleague": "Your Colleague",
+    "talkedToStranger": "A Stranger"
+  },
+  "reactionOptions": {
+    "interested": "Interested",
+    "confused": "Confused",
+    "annoyed": "Annoyed",
+    "dismissive": "Dismissive",
+    "engaged": "Engaged",
+    "anxious": "Anxious",
+    "angry": "Angry",
+    "sad": "Sad"
+  }
+}

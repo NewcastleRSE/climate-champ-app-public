@@ -1,0 +1,56 @@
+{
+  "driving_kgCO2": {
+    "units": "kg / mi",
+    "electric": 0.18,
+    "petrolOrDiesel": 0.53,
+    "SUVOr4x4": 1.26,
+    "none": 0
+  },
+  "flying_kgCO2": {
+    "units": "kg / h",
+    "threshold_hours": 4,
+    "lower_rate": 150,
+    "upper_rate": 190
+  },
+
+  "grocery_kgCO2": {
+    "units": "kg",
+    "beefUK": 25,
+    "beefSouthAmerica": 75,
+    "lamb": 10,
+    "porkOrBaconOrHam": 3.8,
+    "chicken": 2.8,
+    "freshFish": 1.02,
+    "tinnedFish": 1.9,
+    "eggs": 0.6,
+    "milkCow": 1.1,
+    "cheese": 0.66,
+    "yoghurt": 0.4,
+    "cream": 0.6
+  },
+
+  "goods_kgCO2": {
+    "units": "kg",
+    "shoesPair": 11.5,
+    "clothes": 6.2,
+    "jewellery": 100,
+    "cosmeticsOrToiletries": 1.5,
+    "furniture": 47,
+    "electricDeviceLaptopOrDesktopOrTV": 350,
+    "electricDevicePhone": 69,
+    "electricAccessories": 18.6,
+    "other": 0
+  },
+  "heating_kgCO2": {
+    "units": "kg / h",
+    "heatPump": 0.33,
+    "modernGasBoiler": 6,
+    "oldGasBoiler": 16,
+    "electricHeater": 3.4,
+    "none": 0
+  },
+  "electricity_kgCO2": {
+    "units": "kg / h",
+    "baseCarbonRate": 0.233
+  }
+}

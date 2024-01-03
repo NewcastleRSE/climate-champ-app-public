@@ -1,0 +1,163 @@
+{
+  "definitions": {
+    "theirReaction": {
+      "enum": [
+        "interested",
+        "confused",
+        "annoyed",
+        "dismissive",
+        "engaged",
+        "anxious",
+        "angry",
+        "sad",
+        "didNotTalk"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "usedCar": {
+      "didUseCar": { "type": "boolean" },
+      "milesDriven": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 999
+      }
+    },
+    "tookPlane": {
+      "didTakePlane": { "type": "boolean" },
+      "hoursOfFlightLength": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 99
+      }
+    },
+    "eatMeatOrDairy": {
+      "type": "object",
+      "properties": {
+        "didEatMeatOrDairy": { "type": "boolean" },
+        "beefUK": { "type": "boolean" },
+        "beefSouthAmerica": { "type": "boolean" },
+        "lamb": { "type": "boolean" },
+        "porkOrBaconOrHam": { "type": "boolean" },
+        "chicken": { "type": "boolean" },
+        "freshFish": { "type": "boolean" },
+        "tinnedFish": { "type": "boolean" },
+        "eggs": { "type": "boolean" },
+        "milkCow": { "type": "boolean" },
+        "cheese": { "type": "boolean" },
+        "yoghurt": { "type": "boolean" },
+        "cream": { "type": "boolean" }
+      }
+    },
+    "purchaseNonGrocery": {
+      "type": "object",
+      "properties": {
+        "didPurchaseNonGrocery": { "type": "boolean" },
+        "shoesPair": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "clothes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "jewellery": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "cosmeticsOrToiletries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "furniture": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "electricDeviceLaptopOrDesktopOrTV": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "electricDevicePhone": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "electricAccessories": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "other": { "type": "string" }
+      }
+    },
+    "heating": {
+      "didUseHeating": { "type": "boolean" },
+      "hoursUsedHeating": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 24
+      }
+    },
+    "electricity": {
+      "electricityUsedInKwh": {
+        "type": "integer",
+        "minimum": 4,
+        "maximum": 20
+      }
+    },
+    "talkToRelation": {
+      "type": "object",
+      "properties": {
+        "talkedToPartnerOrHusbandOrWife": {
+          "$ref": "#/definitions/theirReaction"
+        },
+        "talkedToYourChild": { "$ref": "#/definitions/theirReaction" },
+        "talkedToOtherFamily": { "$ref": "#/definitions/theirReaction" },
+        "talkedToFriend": { "$ref": "#/definitions/theirReaction" },
+        "talkedToNeighbour": { "$ref": "#/definitions/theirReaction" },
+        "talkedToColleague": { "$ref": "#/definitions/theirReaction" },
+        "talkedToStranger": { "$ref": "#/definitions/theirReaction" }
+      }
+    },
+    "getClimateChangeNews": {
+      "type": "object",
+      "properties": {
+        "didGetClimateChangeNews": { "type": "boolean" },
+        "mediaSourceTV": { "type": "boolean" },
+        "mediaSourceOnlineNews": { "type": "boolean" },
+        "mediaSourceNewsPaper": { "type": "boolean" },
+        "mediaSourceSocialMedia": { "type": "boolean" },
+        "mediaSourceRadio": { "type": "boolean" },
+        "mediaSourcePodcast": { "type": "boolean" },
+        "mediaSourceBlog": { "type": "boolean" },
+        "mediaSourceYoutube": { "type": "boolean" }
+      }
+    },
+    "mitigateClimateChange": {
+      "type": "object",
+      "properties": {
+        "didMitigateClimateChange": { "type": "boolean" },
+        "didContactMPViaSocialMediaOrEmail": { "type": "boolean" },
+        "didContactMPViaLetter": { "type": "boolean" },
+        "didSignPetition": { "type": "boolean" },
+        "didContactCityCouncil": { "type": "boolean" },
+        "didDonateForClimateCause": { "type": "boolean" },
+        "didJoinClimateCampaignGroup": { "type": "boolean" },
+        "didClimateProtestAction": { "type": "boolean" },
+        "didContactEmplover": { "type": "boolean" },
+        "didContactPensionFund": { "type": "boolean" },
+        "didContactBank": { "type": "boolean" },
+        "didChangeElectricitySupplier": { "type": "boolean" },
+        "didEnquireGreenHomeRetrofitting": { "type": "boolean" },
+        "other": { "type": "string" }
+      }
+    }
+  }
+}

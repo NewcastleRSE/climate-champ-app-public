@@ -1,0 +1,36 @@
+{
+  "talkToRelation": {
+    "talkedToPartnerOrHusbandOrWife": 1,
+    "talkedToYourChild": 1,
+    "talkedToOtherFamily": 1,
+    "talkedToFriend": 1,
+    "talkedToNeighbour": 1,
+    "talkedToColleague": 1,
+    "talkedToStranger": 1
+  },
+  "getClimateChangeNews": {
+    "mediaSourceTV": 1,
+    "mediaSourceOnlineNews": 1,
+    "mediaSourceNewsPaper": 1,
+    "mediaSourceSocialMedia": 1,
+    "mediaSourceRadio": 1,
+    "mediaSourcePodcast": 1,
+    "mediaSourceBlog": 1,
+    "mediaSourceYoutube": 1
+  },
+  "mitigateClimateChange": {
+    "didContactMPViaSocialMediaOrEmail": 2,
+    "didContactMPViaLetter": 2,
+    "didSignPetition": 2,
+    "didContactCityCouncil": 2,
+    "didDonateForClimateCause": 2,
+    "didJoinClimateCampaignGroup": 2,
+    "didClimateProtestAction": 2,
+    "didContactEmplover": 2,
+    "didContactPensionFund": 2,
+    "didContactBank": 2,
+    "didChangeElectricitySupplier": 2,
+    "didEnquireGreenHomeRetrofitting": 2,
+    "other": 2
+  }
+}
